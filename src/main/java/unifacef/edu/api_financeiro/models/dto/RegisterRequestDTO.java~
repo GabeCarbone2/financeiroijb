@@ -1,0 +1,9 @@
+package unifacef.edu.api_financeiro.model.dto;
+
+
+import org.antlr.v4.runtime.misc.NotNull;
+import unifacef.edu.api_financeiro.enums.Role;
+
+public record RegisterRequestDTO(@NotNull String email, @NotNull String password, @NotNull Role role ) {
+
+}
